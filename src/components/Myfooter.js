@@ -4,7 +4,7 @@ import React from 'react';
 
 function Myfooter() {
     return (
-        <div class="fixed-bottom my-3" > <center>Made By <a href='/'>Niraj Amrutkar</a></center> </div>
+        <div class="bottom my-3" > <center>Made By <a href='/'>Niraj Amrutkar</a></center> </div>
     )
 }
 

@@ -1,6 +1,10 @@
 .tdata{
     margin: 20px;
 }
-tr{
+tr, th{
     vertical-align: middle;
+    /* text-align: center; */
+}
+.form-switch{
+    margin-left: 10px;
 }
