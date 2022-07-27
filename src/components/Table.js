@@ -26,7 +26,7 @@ function TableData() {
                 {movielist.map(name => (
                         <tr>
                         <th>{serialnum++}</th>
-                        <td><a href={url+name}> {name}</a></td>
+                        <td><a href={url+name} target="_blank" rel="noopener noreferrer"> {name}</a></td>
                         <td>
                         {/* <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/> */}
                         <center>
