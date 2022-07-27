@@ -7,6 +7,15 @@ function TableData() {
     for (let  user of movielist) {
         final.push(<td key={user}>{user}</td>);
     }
+
+    const handleMouseEnter = e => {
+        e.target.style.color = "blue";
+    }
+    const handleMouseLeave = e => {
+        e.target.style.color = "black";
+    }
+    
+    
     var serialnum = 1;
     var url = `https://www.google.com/search?q=`;
     return (
@@ -26,9 +35,8 @@ function TableData() {
                 {movielist.map(name => (
                         <tr>
                         <th>{serialnum++}</th>
-                        <td><a href={url+name} target="_blank" rel="noopener noreferrer"> {name}</a></td>
+                        <td><a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href={url+name} target="_blank" rel="noopener noreferrer" style={{color: 'black',textDecoration: 'none'} }> {name}</a></td>
                         <td>
-                        {/* <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/> */}
                         <center>
                             <div class="form-check form-switch">
                                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
