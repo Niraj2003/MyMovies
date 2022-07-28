@@ -11,6 +11,7 @@ function TableData() {
     const handleMouseEnter = e => {
         e.target.style.color = "blue";
     }
+
     const handleMouseLeave = e => {
         e.target.style.color = "black";
     }
@@ -39,7 +40,7 @@ function TableData() {
                         <td>
                         <center>
                             <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+                                <input class="form-check-input"  type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
                             </div>
                         </center>
                         </td>
