@@ -21,7 +21,7 @@ function TableData() {
     var url = `https://www.google.com/search?q=`;
     return (
         <div className='tdata'>
-            <table class="table caption-top">
+            <table className="table caption-top">
                 <caption><center>Movies Bucket List </center></caption>
                 <thead>
                     <tr>
@@ -39,12 +39,12 @@ function TableData() {
                         <td><a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href={url+name} target="_blank" rel="noopener noreferrer" style={{color: 'black',textDecoration: 'none'} }> {name}</a></td>
                         <td>
                         <center>
-                            <div class="form-check form-switch">
-                                <input class="form-check-input"  type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+                            <div className="form-check form-switch">
+                                <input className="form-check-input"  type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
                             </div>
                         </center>
                         </td>
-                        <td> <input class="form-control" type="text" placeholder="" aria-label="default input example"></input> </td>
+                        <td> <input className="form-control" type="text" placeholder="" aria-label="default input example"></input> </td>
                     </tr>
                 ))}
 
@@ -53,7 +53,7 @@ function TableData() {
                 </tbody>
             </table>
             <div>
-            <center><button type="button" class="btn btn-secondary">Save</button></center>
+            <center><button type="button" className="btn btn-secondary">Save</button></center>
             </div>
         </div>
     );
