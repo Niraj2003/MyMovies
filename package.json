@@ -1,5 +1,6 @@
 {
-  "name": "client",
+  "homepage": "http://niraj2003.github.io/MyMovies/",
+  "name": "MyMovies",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
