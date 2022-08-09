@@ -29,6 +29,7 @@ function TableData() {
                         <th scope="col">Movie/Series Name</th>
                         <th scope="col">Watched or Not</th>
                         <th scope="col">Feedback/ Description</th>
+                        <th scope='col'>Rating</th>
                     </tr>
                 </thead>
                 <tbody>
