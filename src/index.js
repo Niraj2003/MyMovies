@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Top from './components/Top';
 import TableData from './components/Table';
 import Myfooter from './components/Myfooter';
+import About from './components/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Top/>
     <TableData/>
+    <About/>
     <Myfooter/>
 
   </React.StrictMode>
