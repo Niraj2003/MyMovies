@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Table.css';
 
-const movielist = ["Inception", "Marvel", "Tenet", "Titanic", "Catch Me If You Can","Shape of water","Moonlight", "The Matrix"];
+const movielist = ["Inception", "Marvel", "Tenet", "Titanic", "Catch Me If You Can","Shape of water","Moonlight", "The Matrix", "The Darkest Hour", "Terminal", "The Martian", "Gravity", "Predestination", "BucketList", "GodFather I & II", "Gladiator"];
 function TableData() {
     const final = [];
     for (let  user of movielist) {
