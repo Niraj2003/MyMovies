@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Table.css';
 
-const movielist = ["Inception", "Marvel", "Tenet", "Titanic", "Catch Me If You Can","Shape of water","Moonlight", "The Matrix"];
+const movielist = ["Inception", "Marvel", "Tenet", "Titanic", "Catch Me If You Can","Shape of water","Moonlight", "The Matrix", "The Darkest Hour", "Terminal", "The Martian", "Gravity", "Predestination", "BucketList", "GodFather I & II", "Gladiator"];
 function TableData() {
     const final = [];
     for (let  user of movielist) {
@@ -38,7 +38,7 @@ function TableData() {
                 {movielist.map(name => (
                         <tr>
                         <th>{serialnum++}</th>
-                        <td><a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href={url+name} target="_blank" rel="noopener noreferrer" style={{color: 'black',textDecoration: 'none'} }> {name}</a></td>
+                        <td><a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href={url+name+" movie"} target="_blank" rel="noopener noreferrer" style={{color: 'black',textDecoration: 'none'} }> {name}</a></td>
                         <td>
                         <center>
                             <div className="form-check form-switch">
