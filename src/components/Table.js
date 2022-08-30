@@ -38,7 +38,7 @@ function TableData() {
                 {movielist.map(name => (
                         <tr>
                         <th>{serialnum++}</th>
-                        <td><a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href={url+name} target="_blank" rel="noopener noreferrer" style={{color: 'black',textDecoration: 'none'} }> {name}</a></td>
+                        <td><a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href={url+name+" movie"} target="_blank" rel="noopener noreferrer" style={{color: 'black',textDecoration: 'none'} }> {name}</a></td>
                         <td>
                         <center>
                             <div className="form-check form-switch">
