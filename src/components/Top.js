@@ -36,7 +36,7 @@ function Top() {
   return (
     <Navbar expand="lg" className='nvb'>
       <Container>
-        <Navbar.Brand href="/">MoviesToWatch</Navbar.Brand>
+        <Navbar.Brand href="https://niraj2003.github.io/MyMovies/">MoviesToWatch</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

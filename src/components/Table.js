@@ -120,7 +120,7 @@ function TableData() {
                         <th scope="col">Sr. No </th>
                         <th scope="col">Movie/Series Name</th>
                         <th scope="col">Watched or Not</th>
-                        <th scope="col"><center>Feedback/ Description</center></th>
+                        <th scope="col"><center>Review</center></th>
                         <th scope='col'><center>IMDB Rating</center></th>
                     </tr>
                 </thead>

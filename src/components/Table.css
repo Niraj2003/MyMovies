@@ -1,6 +1,21 @@
-.tdata{
-    margin-left: 10%;
-    margin-right: 10%;
+@media only screen and (min-width: 600px) {
+    .tdata{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .fs{
+        margin-right: 100px;
+    }
+    #about{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+}
+@media only screen and (max-width: 600px){
+    /* .form-control {
+        width: 50%;
+    } */
 }
 tr, th{
     vertical-align: middle;
@@ -19,9 +34,7 @@ a:hover{
 h2{
     color: rgb(153, 0, 153);
 }
-.fs{
-    margin-right: 100px;
-}
+
 .form-check-input:checked {
     background-color: #cdb2ff;
     border-color: #4b415d;
@@ -34,9 +47,4 @@ h2{
 .form-control{
     background-color: #d0bdf4;
     border: 1px solid #4f555c;
-}
-#about{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3%;
 }
