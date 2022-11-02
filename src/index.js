@@ -11,10 +11,12 @@ import About from './components/About';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Top/>
-    <TableData/>
-    <About/>
-    <Myfooter/>
+    <div className='colp'>
+      <Top/>
+      <TableData/>
+      <About/>
+      <Myfooter/>
+    </div>
 
   </React.StrictMode>
 );

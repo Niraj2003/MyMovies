@@ -13,7 +13,7 @@ function Myfooter() {
                 <a href="https://www.linkedin.com/in/niraj-amrutkar/" target="_blank" rel="noopener noreferrer" className="fa fa-linkedin"> </a>
                 <a href="https://github.com/Niraj2003" target="_blank" rel="noopener noreferrer" className="fa fa-github"> </a>
             </div>
-            <div className="bottom " > <center>Made By <a href='https://www.linkedin.com/in/niraj-amrutkar/' target="_blank" rel="noopener noreferrer">Niraj Amrutkar</a></center> </div>
+            <div className="pb-3" > <center>Made By <a href='https://www.linkedin.com/in/niraj-amrutkar/' target="_blank" rel="noopener noreferrer">Niraj Amrutkar</a></center> </div>
         </div>
 
 

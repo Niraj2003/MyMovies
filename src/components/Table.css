@@ -1,13 +1,42 @@
 .tdata{
-    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 tr, th{
     vertical-align: middle;
     /* text-align: center; */
 }
-.form-switch{
-    margin-left: 10px;
-}
 tr:hover {
-    background-color: #f2f2f2;
+    background-color: #cdb2ff;
+    color: black;
+}
+th:hover{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+h2{
+    color: rgb(153, 0, 153);
+}
+.fs{
+    margin-right: 100px;
+}
+.form-check-input:checked {
+    background-color: #cdb2ff;
+    border-color: #4b415d;
+    color: #4b415d;
+}
+.form-check-input{
+    background-color: #cdb2ff;
+    border-color: #4b415d;
+}
+.form-control{
+    background-color: #d0bdf4;
+    border: 1px solid #4f555c;
+}
+#about{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
 }

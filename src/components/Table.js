@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Table.css';
+import Form from 'react-bootstrap/Form';
 
 const movielist = ["Shawshank Redemption",
 "Good Will Hunting ",
@@ -99,7 +100,7 @@ function TableData() {
     }
 
     const handleMouseEnter = e => {
-        e.target.style.color = "blue";
+        e.target.style.color = "#371d53";
     }
 
     const handleMouseLeave = e => {
@@ -112,7 +113,7 @@ function TableData() {
     var url = `https://www.google.com/search?q=`;
     return (
         <div className='tdata'>
-            <center><h2>Movies Bucket List</h2></center> 
+            <center><h2 >Movies Bucket List</h2></center> 
             <table className="table caption-top fs-6 ">
                 <thead>
                     <tr>
@@ -131,19 +132,23 @@ function TableData() {
                         <td><a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href={url+name+" movie"} target="_blank" rel="noopener noreferrer" style={{color: 'black',textDecoration: 'none'} }> {name}</a></td>
                         <td>
                         <center>
-                            <div className="form-check form-switch">
+                            {/* <div className="form-check form-switch">
                                 <input className="form-check-input"  type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
-                            </div>
+                            </div> */}
+                            <center>
+                            <Form.Check className='fs' type="switch" id="custom-switch " />
+                            </center>
+                            
                         </center>
                         </td>
                         <td> <input className="form-control" type="text" placeholder="" aria-label="default input example"></input> </td>
                         <td><center><a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href={urlle+name+urlri} target="_blank" rel="noopener noreferrer" style={{color: 'black',textDecoration: 'none'} }> View Rating</a></center></td>
                     </tr>
                 ))}
-
+{/* 
                 <tr>
                     <th >{serialnum++} </th>
-                    <td > <input class="form-control" placeholder='Movie Name'></input> </td>
+                    <td > <input className="form-control" placeholder='Movie Name'></input> </td>
                     <td>
                     <center>
                         <div className="form-check form-switch">
@@ -152,15 +157,12 @@ function TableData() {
                         
                     </center>
                     </td>
-                    <td> <input className="form-control" type="text" placeholder="Feedback" aria-label="default input example"></input> </td>
+                    <td> <input className="form-control" type="text" placeholder="Feedback" ></input> </td>
                     <td></td>
-                </tr>
+                </tr> */}
 
                 </tbody>
             </table>
-            <div>
-            <center><button type="button" className="btn btn-secondary">Add & Save</button></center>
-            </div>
         </div>
     );
 }
